@@ -1,0 +1,2 @@
+# MeeNET
+MiNET Education Edition
