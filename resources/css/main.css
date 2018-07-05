@@ -1,0 +1,29 @@
+body {
+	font-family: Montserrat, sans-serif;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+.cover {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+
+	/* TODO: Use own cover! */
+	background-image: url("https://education.minecraft.net/wp-content/uploads/ContactUs_SubHero_1920.jpg");
+	background-size: cover;
+	background-position-y: bottom;
+}
+
+.cover h1 {
+	font-size: 3rem;
+}
+
+.cover p {
+	font-size: 1.5rem;
+}
+
+.shadow {
+	border-color: rgba(0, 0, 0, 0.03);
+}
