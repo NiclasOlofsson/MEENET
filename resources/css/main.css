@@ -1,9 +1,9 @@
 body {
-	font-family: Montserrat, sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 }
 
-h1 {
-	font-weight: bold;
+code, kbd, pre, samp {
+	font-size: 0.8em;
 }
 
 .cover {
@@ -17,6 +17,7 @@ h1 {
 
 .cover h1 {
 	font-size: 3rem;
+	font-weight: bold;
 }
 
 .cover p {
