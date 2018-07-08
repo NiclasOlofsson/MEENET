@@ -14,6 +14,32 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-lg-8">
+					<div class="alert alert-primary">
+						To install MEENET, follow these simple steps and you should be up and running within minutes.
+					</div>
+					<h3>Installation</h3>
+					<h4>Install .NET Core Runtime</h4>
+					<ol>
+						<li>Navigate to <a href="https://www.microsoft.com/net/download/dotnet-core/runtime-2.1.1" target="_blank">https://www.microsoft.com/net/download/dotnet-core/runtime-2.1.1</a></li>
+						<li>Find your target platform.</li>
+						<li>Follow the instructions to install.</li>
+					</ol>
+					<h4>Install MEENET</h4>
+					<ol>
+						<li>Find the latest release at the right side and download <samp>meenet-server.zip</samp>.</li>
+						<li>Unzip to a folder of your own choosing.</li>
+						<li>Open a command prompt and navigate to the folder that contains the unzipped content.</li>
+						<li>Run <samp>dotnet MiNET.Console.dll</samp> to start your server.</li>
+					</ol>
+					<h3>Post Installation</h3>
+					<h4>Configuration</h4>
+					<p>
+						Most configuration in MiNET is handled via a <samp>server.config</samp> located in the same directory as the binaries.
+						In order to connect to the server, you will need to provide the server with credentials that handle login to Microsoft Office365.
+						Access to Office365 is required in order to verify the license of the clients connecting to the server.
+					</p>
+					<h4>Plugins</h4>
+					<p>TBD</p>
 				</div>
 				<div class="col-12 col-lg-4">
 					<h3>Releases</h3>
@@ -22,6 +48,6 @@
 			</div>
 		</div>
 		<script src="./resources/js/main.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 	</body>
 </html>
