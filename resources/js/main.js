@@ -6,7 +6,9 @@ Main.initializeReleases = function() {
 	fetch("https://api.github.com/repos/NiclasOlofsson/MEENET/releases").then(function(response) {
 		return response.json();
 	}).then(function(releases) {
-		for(const release of releases) {
+		for(var i = 0; i < releases.length; i++) {
+			const release = releases[i];
+			
 			const cardElement = document.createElement("div");
 			cardElement.className = "card mb-4 shadow";
 			cardElement.innerHTML = "<div class=\"card-body\">" +
@@ -15,6 +17,10 @@ Main.initializeReleases = function() {
 				"<a href=\"" + release.html_url + "\" class=\"btn btn-primary w-100\">Download</button>" +
 				"</div>";
 			document.getElementById("releases").appendChild(cardElement);
+
+			if(i == 2) {
+				break;
+            		}
 		}
 	});
 };
